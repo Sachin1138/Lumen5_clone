@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumen5 - Video Maker | Create Videos Online in Minutes </title>
+    <link rel="icon" type="image/png" href="https://storage.googleapis.com/lumen5-site-images/favicon/favicon.ico">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/homepage.css">
+    <link rel="stylesheet" href="../css/homepage_partners.css">
+    <link rel="stylesheet" href="../css/homepage_videos.css">
+    <link rel="stylesheet" href="../css/homepage_custStories.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <div class="main">
+        <nav id="navbar"></nav>
+
+        <!-- Intro lumen5 -->
+
+        <div class="lumen_intro background_gray">
+
+            <div class="inner_first">
+                <h3 class="heading">Video maker build to supercharge your content strategy</h3>
+                <p class="description">Easily make videos for <b class="innerbold">content marketing, thought leadership,</b> and <b class="innerbold">brand awareness</b> in a snap.</p>
+                <a href="./signup.html"><button id="sign_up_button" class="pointer1" style="outline: none; border: none;">Sign up free</button></a>
+            </div>
+
+            <div class="inner_second" id="lumen_intro_img">
+                <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/image-hero.png"  alt="Lumen Intro" class="intro_img pointer1">
+
+            </div>
+
+
+            <div id="light" >
+                <video id="VisaChipCardVideo" width="600" style="border-radius: 10px;" controls>
+                    <source src="https://storage.googleapis.com/lumen5-site-images/website-assets/product-tour-header.mp4" type="video/mp4">
+                    <!--Browser does not support <video> tag -->
+                </video>
+            </div>
+
+            <div id="fade" onclick="lightbox_close()"></div>
+
+        </div>
+    </div>
+
+    <!-- Intro lumen5 -->
+
+    <!-- partners -->
+
+    <div class="col-sm-12" id="partners">
+        <div class="justify-content-center text-center">
+            <div>Over 6 million videos created by thousands of businesses</div>
+        </div>
+    </div>
+    <div class="col-sm-12">
+        <div class="container-fluid logo-container d-flex">
+            <img class="mx-3 " src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-salesforce-color.png">
+            <img class="mx-3 " src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-pwc-color.png">
+            <img class="mx-3 " src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-siemens-color1.png">
+            <img class="mx-3 d-none d-md-block" src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-kpmg-color.png">
+            <img class="mx-3 d-none d-md-block" src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-merk-color.png">
+            <img class="mx-3 d-none d-md-block" src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-sap-color.png">
+            <img class="mx-3 d-none d-md-block" src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-mitsubishi-color.png">
+            <img class="mx-3 d-none d-md-block" src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-cisco-color.png">
+        </div>
+    </div>
+
+    <!-- partners -->
+
+    <!-- section 3 -->
+
+    <div class="section-3">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <h3>Captivating video templates</h3>
+                <h5>Drag and drop. No experience required.</h5>
+            </div>
+            <div class="row">
+                <div class="play-btn-container col-sm-12 col-md-6">
+                    <video class="video-card w-100 mt-2 mr-2 rounded-video focus-outline-none"  loop="" preload="metadata" poster="https://storage.googleapis.com/lumen5-site-images/Prev_Vivid_480.png" ><source src="https://storage.googleapis.com/lumen5-site-images/Prev_Vivid_480.mp4"  type="video/mp4"></video="video1">
+                </div>
+                <div class="play-btn-container col-sm-12 col-md-6">
+                    <video class="video-card w-100 mt-2 mr-2 rounded-video focus-outline-none"  loop="" preload="metadata" poster="https://storage.googleapis.com/lumen5-site-images/Prev_Boldly_480.png" ><source src="https://storage.googleapis.com/lumen5-site-images/Prev_Boldly_480.mp4" type="video/mp4"></video >
+                </div>
+                <div class="play-btn-container col-sm-12 col-md-6">
+                    <video class="video-card w-100 mt-2 mr-2 rounded-video focus-outline-none" loop="" preload="metadata" poster="https://storage.googleapis.com/lumen5-site-images/Prev_Ascend_480.png"><source src="https://storage.googleapis.com/lumen5-site-images/Prev_Ascend_480.mp4"  type="video/mp4"></video>
+                </div>
+                <div class="play-btn-container col-sm-12 col-md-6">
+                    <video class="video-card w-100 mt-2 mr-2 rounded-video focus-outline-none" loop="" preload="metadata" poster="https://storage.googleapis.com/lumen5-site-images/Prev_Brilliant_480.png"><source src="https://storage.googleapis.com/lumen5-site-images/Prev_Brilliant_480.mp4"  type="video/mp4"></video >
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- section 3 -->
+
+    <!-- section 4 -->
+
+
+    <div class="lumen_intro reverse_col">
+
+        <div class="inner_first">
+
+            <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/image-content.png" alt="Lumen Intro" class="other_img">
+
+        </div>
+
+        <div class="inner_second">
+
+            <div class="icon_logo">
+                <i class="material-icons icon-l5 text-white logos">description</i>
+            </div>
+
+            <h3 class="heading">Transform blog posts
+                <br>
+                into videos with A.I.
+            </h3>
+            <p class="description font_size2">Starting from a blank page is hard — and with Lumen5, you don’t have to. Our AI-powered technology helps you storyboard your ideas, fit your content to a layout, and find music and visuals that enhance your message.</p>
+
+            <div class="description">
+                <a href="./signup.html" class="linkings pointer2">Get started for free →</a>
+            </div>
+
+            <hr class="partition">
+
+            <p class="description font_size3">“Lumen5 has enabled us to create more videos and drive more traffic, while
+                having more time to invest in other projects.”</p>
+
+            <div class="description user_flex">
+                <div>
+                    <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/image-drew-s.jpg" alt="" class="user_img border">
+                </div>
+
+                <div>
+                    <p class="font_size3"><b>Drew Sykes,</b> Social Media Director</p>
+                    <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-nc-red.png" alt="Location" class="loc_img" />
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+<!-- section 4 -->
+
+<!-- section 5 -->
+
+    <div class="lumen_intro background_gray">
+
+        <div class="inner_first">
+
+            <div class="icon_logo" style="background-color: aqua;">
+                <i class="material-icons icon-l5 text-white logos">image_search</i>
+            </div>
+
+            <h3 class="heading">Integrate high-quality media in minutes</h3>
+            <p class="description font_size2">The Lumen5 media library gives you easy access to millions of photos,
+                video clips, and audio files, so you always have the elements you need to create the perfect video.</p>
+
+            <div class="description">
+                <a href="" class="linkings pointer2">View plans →</a>
+            </div>
+
+            <hr class="partition">
+
+            <p class="description font_size3">“We promoted our downloadable study on top PPC skills for 2019 on social
+                media using a short video created in Lumen5 in just 30 minutes, and decreased cost per download by 5x!”
+            </p>
+
+            <div class="description user_flex">
+                <div>
+                    <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/image-julia-o.jpg" alt="" class="user_img border">
+                </div>
+
+                <div >
+                    <p class="font_size3"><b>Julia Olennikova,</b> Product Marketing Manager</p>
+                    <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-semrush.png" alt="Location" class="loc_img">
+                </div>
+            </div>
+        </div>
+
+        <div class="inner_second">
+            <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/image-media.png" alt="Lumen Intro" class="other_img">
+        </div>
+
+    </div>
+
+<!-- section 5 -->
+
+<!-- section 6 -->
+
+    <div class="lumen_intro reverse_col">
+
+        <div class="inner_first">
+
+            <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/image-customize.png" alt="Lumen Intro" class="other_img">
+
+        </div>
+
+        <div class="inner_second">
+
+
+            <div class="icon_logo" style="background-color: hotpink;">
+                <i class="material-icons icon-l5 text-white logos">palette</i>
+            </div>
+
+            <h3 class="heading">Customize with voiceovers and branding</h3>
+            <p class="description font_size2">Want to add your own creative flair to every video? With Lumen5’s brand
+                presets and voiceover feature, you can record your own voice and choose from hundreds of themes, colors,
+                fonts, and more.</p>
+
+            <div class="description">
+                <a href="" class="linkings pointer2">Get started for free →</a>
+            </div>
+
+            <hr class="partition">
+
+            <p class="description font_size3">“Whenever I got in touch with Lumen5 I felt like my suggestions mattered
+                and I was being listened to. It’s like I’m co-creating in a tiny way. It’s a great feeling.”</p>
+
+            <div class="description user_flex">
+                <div>
+                    <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/image-promod-s.jpg" alt="" class="user_img border">
+                </div>
+
+                <div>
+                    <p class="font_size3"><b>Promod Sharma,</b> Actuary & Insurance Consultant</p>
+                    <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-taxevity-color.png" alt="Location" class="loc_img">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+<!-- section 6 -->
+
+<!-- section 7 -- explore videos -->
+
+
+<div class="container section-7">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-sm-12">
+            <h4>Explore videos made with Lumen5</h4>
+        </div>
+    </div>
+    <div class="d-grid justify-content-around">
+        <div class="search-option active">
+            <a class="text-highlight">Content Marketing</a>
+        </div>
+        <div class="search-option">
+            <a class="text-highlight">Communications</a>
+        </div>
+        <div class="search-option">
+            <a class="text-highlight">Promotional </a>
+        </div>
+        <div class="search-option">
+            <a class="text-highlight">People & Culture</a>
+        </div>
+        <div class="search-option">
+            <a class="text-highlight">Localization </a>
+        </div>
+    </div> 
+    <div class="row">
+        <div class="play-btn-container col-sm-12 col-md-4">
+            <video class="video-card w-100 mt-2 mr-2 rounded-video focus-outline-none" loop=""  preload="metadata" poster="https://storage.googleapis.com/lumen5-site-images/homepage/Content%20Marketing/Hydrogen%20Economy%20TN.png"><source src="https://storage.googleapis.com/lumen5-site-images/homepage/Content%20Marketing/Hydrogen%20Economy.mp4" ></video>
+        </div>
+        <div class="play-btn-container col-sm-12 col-md-4">
+            <video class="video-card w-100 mt-2 mr-2 rounded-video focus-outline-none" loop="" preload="metadata" poster="https://storage.googleapis.com/lumen5-site-images/homepage/Content%20Marketing/Canadian%20Real%20Estate%20TN.png"><source src="https://storage.googleapis.com/lumen5-site-images/homepage/Content%20Marketing/Canadian%20Real%20Estate.mp4"></video>
+        </div>
+        <div class="play-btn-container col-sm-12 col-md-4">
+            <video class="video-card w-100 mt-2 mr-2 rounded-video focus-outline-none" loop=""  preload="metadata" poster="https://storage.googleapis.com/lumen5-site-images/homepage/Content%20Marketing/Responsible%20Investment%20TN.png"><source src="https://storage.googleapis.com/lumen5-site-images/homepage/Content%20Marketing/Responsible%20Investment.mp4"></video>
+        </div>
+        <div class="play-btn-container col-sm-12 col-md-4">
+            <video class="video-card w-100 mt-2 mr-2 rounded-video focus-outline-none" loop=""  preload="metadata" poster="https://storage.googleapis.com/lumen5-site-images/homepage/Content%20Marketing/Workplace%20Evolution%20TN.png"><source src="https://storage.googleapis.com/lumen5-site-images/homepage/Content%20Marketing/Workplace%20Evolution.mp4"></video>
+        </div>
+        <div class="play-btn-container col-sm-12 col-md-4">
+            <video class="video-card w-100 mt-2 mr-2 rounded-video focus-outline-none" loop=""  preload="metadata" poster="https://storage.googleapis.com/lumen5-site-images/homepage/Content%20Marketing/The%20Pandemic%20TN.png"><source src="https://storage.googleapis.com/lumen5-site-images/homepage/Content%20Marketing/The%20Pandemic.mp4"></video>
+        </div>
+        <div class="play-btn-container col-sm-12 col-md-4">
+            <video class="video-card w-100 mt-2 mr-2 rounded-video focus-outline-none" loop=""  preload="metadata" poster="https://storage.googleapis.com/lumen5-site-images/homepage/Content%20Marketing/Supply%20Chain%20Resilience%20TN.png"><source src="https://storage.googleapis.com/lumen5-site-images/homepage/Content%20Marketing/Supply%20Chain%20Resilience.mp4"></video>
+        </div>
+    </div>   
+</div>
+
+
+<!-- section 7 -- explore videos -->
+
+<!-- section-8 customers stories -->
+
+
+<div id="part8">
+    <div class="part8">
+      <h1 class="part8-heading">
+        Learn how our customers boost engagement and drive traffic with Lumen5
+      </h1>
+
+      <div class="part8-content">
+        <button class="previous" >&#10094;</button>
+        <button class="next" >&#10095;</button>
+        <!-- slide1 -->
+        <div class="part8-slide1 class2">
+          <div class="part8-slide-content">
+            <div class="part8-slide-text">
+              <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-dnvgl-grey.png" alt="" />
+              <p>
+                "Lumen5 is evolving fast as a company and we have always felt
+                that our feedback has been considered as the platform is
+                optimized. It is encouraging to see that whilst Lumen5 is in a
+                rapid growth phase, they have remained attentive to our
+                needs."
+              </p>
+              <h3>Peter Lovegrove</h3>
+              <p style="margin-top: -5%">
+                Media Relations and Video Content Manager
+              </p>
+              <a href="">Read story</a>
+            </div>
+          </div>
+        </div>
+        <!-- slide2 -->
+        <div class="part8-slide2 class2">
+          <div class="part8-slide-content">
+            <div class="part8-slide-text">
+              <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-mhi-grey.png" alt="" />
+              <p>
+                "I’m in love with Lumen5’s client relationship management.
+                Whether something is cheap or expensive, if you don't get the
+                support you need at the speed and accuracy you need, it
+                affects your work. With Lumen5, we’re never left hanging
+                around."
+              </p>
+              <h3>Adrian Ngo</h3>
+              <p style="margin-top: -5%">
+                Global Advertising and Sponsorships
+              </p>
+              <a href="">Read story</a>
+            </div>
+          </div>
+        </div>
+        <!-- slide3 -->
+        <div class="part8-slide3 class2">
+          <div class="part8-slide-content">
+            <div class="part8-slide-text">
+              <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-nc-grey.png" alt="" />
+              <p>
+                I love how easy it is to use Lumen5 and how much time it saves
+                my team and me. I’m always happy with the results, knowing our
+                video content will resonate with our audiences. I also love
+                that it empowers us to be more creative
+              </p>
+              <h3>Drew Sykes</h3>
+              <p style="margin-top: -5%">
+                Media Relations and Video Content Manager
+              </p>
+              <a href="">Read story</a>
+            </div>
+          </div>
+        </div>
+        <!-- slide4 -->
+        <div class="part8-slide4 class2">
+          <div class="part8-slide-content">
+            <div class="part8-slide-text">
+              <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-cms-grey.png" alt="" />
+              <p>
+                "We haven’t tried many tools because we were looking for one
+                that’s very easy to use. After the trial, we were easily
+                convinced; Lumen5 is the right one for us."
+              </p>
+              <h3>Amsal Alihodzic</h3>
+              <p style="margin-top: -5%">Senior Online Marketing Manager</p>
+              <a href="">Read story</a>
+            </div>
+          </div>
+        </div>
+        <!-- slide5 -->
+        <div class="part8-slide5 class2">
+          <div class="part8-slide-content">
+            <div class="part8-slide-text">
+              <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-mondadori-grey.png" alt="" />
+              <p>
+                Lumen5 helps us with what we want to achieve on social:
+                engagement and reach.
+              </p>
+              <h3>Alfonso Biondi</h3>
+              <p style="margin-top: -5%">Social Video Specialist</p>
+              <a href="">Read story</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="part8-company">
+        <div class="part8-logo">
+          <img
+            class="part8-logo-images"
+            src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-dnvgl-grey.png"
+            alt="logo-dnvgl"
+          />
+        </div>
+        <div class="part8-logo">
+          <img
+            class="part8-logo-images"
+            src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-mhi-grey.png"
+            alt="logo-mutsubishi"
+          />
+        </div>
+        <div class="part8-logo">
+          <img
+            class="part8-logo-images"
+            src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-nc-grey.png"
+            alt="logo-NC"
+          />
+        </div>
+        <div class="part8-logo">
+          <img
+            class="part8-logo-images"
+            src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-cms-grey.png"
+            alt="logo-CMS"
+          />
+        </div>
+        <div class="part8-logo">
+          <img
+            class="part8-logo-images"
+            src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-mondadori-grey.png"
+            alt="logo-mondadori"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- section-8 customers stories -->
+
+<!-- section 9 join us -->
+
+<div id="part9">
+    <div id="part9-heading">
+      Join 800,000+ companies that are using Lumen5 to tell their stories.
+    </div>
+    <div id="part9-cont">
+      Lumen5 is a video creation software that helps marketers, publishers,
+      and brands create video content in a breeze, without any technical
+      expertise.
+    </div>
+    <div id="part9-button" > <a href="./signup.html"> <button id="part9-btn">Sign up free</button></a></div>
+  </div>
+
+
+
+<!-- section 9 join us -->
+
+<!-- fotter  -->
+
+
+<div class="footer">
+  <div class="logo-box">
+    <a href="home.html"> <img src="https://storage.googleapis.com/lumen5-site-images/L5-logo/L5-logo-white.png" /></a>
+    <p>Lumen5 combines powerful A.I. with a simple drag-and-drop interface to help you create professional video content in minutes.</p>
+  </div>
+  <div class="footer-links">
+    <ul>
+      <li class="top-upper">EXPLORE</li>
+      <li>About</li>
+      <li>Features</li>
+      <li>Careers</li>
+      <li>LinkedIn</li>
+      <li>Support</li>
+      <li>Community Group</li>
+    </ul>
+  </div>
+  <div class="footer-links deactive">
+    <ul>
+      <li class="top-upper">VIDEO TOOLS</li>
+      <li>Add Text to Video</li>
+      <li>Cut Video</li>
+      <li>Merge Video</li>
+      <li>Compress Video</li>
+      <li>Resize Video</li>
+      <li>See all</li>
+    </ul>
+  </div>
+  <div class="footer-links deactive">
+    <ul>
+      <li class="top-upper">VIDEO CREATORS</li>
+      <li>Video Editor</li>
+      <li>Photo Video Maker</li>
+      <li>Facebook Video Maker</li>
+      <li>Youtube Video Maker</li>
+      <li>Instagram Video Maker</li>
+      <li>See all</li>
+    </ul>
+  </div>
+</div>
+
+
+
+<!-- fotter  -->
+
+
+
+</body>
+</html>
+
+<script type="module" src= "../js/homepage.js"></script>
+
+
