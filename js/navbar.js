@@ -1,6 +1,6 @@
-function navbar(){
-    return `<div class="logo">
-        <a href="./home.html"><img src="https://storage.googleapis.com/lumen5-site-images/L5-logo/L5-logo-header.png" /></a>
+function navbar() {
+  return `<div class="logo">
+        <a href="../html/homepage.html"><img src="https://storage.googleapis.com/lumen5-site-images/L5-logo/L5-logo-header.png" /></a>
     </div>
     <ul class="nav-links" id="menu">
         <li id="dropdown" ><a href="#">Create
@@ -38,8 +38,7 @@ function navbar(){
         <li><button type="button" class="btn btn-outline-primary " style="border-radius: 16px" id="btn1" >Login</button></li>
         <li><a href="../html/signup.html"><button type="button" class="btn btn-primary" style="border-radius: 16px; margin-bottom:40px;" id="btn2">Sign up</button></a></li>
     </ul>
-    <span id ="spanclick">&#9776</span>`
+    <span id ="spanclick">&#9776</span>`;
 }
 
-
-export default navbar
+export default navbar;
