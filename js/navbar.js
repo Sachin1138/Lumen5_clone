@@ -33,7 +33,7 @@ function navbar() {
         </li>
 
         <li><a href="../html/pricing.html">Pricing</a></li>
-        <li><a href="../html/index.html">Enterprise</a></li>
+        <li><a href="../index.html">Enterprise</a></li>
         <li><a href="../html/casestudies.html">Case studies</a></li>
         <li id="dropdown" style="margin-top: 43px !important;"><a href="#">Learn
         <i class="material-icons align-center">expand_more</i>
